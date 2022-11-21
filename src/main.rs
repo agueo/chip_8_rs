@@ -51,6 +51,6 @@ fn main() {
         // make sound 
         audio_driver.beep(output.beep);
 
-        thread::sleep(Duration::from_millis(100));
+        thread::sleep(Duration::from_millis(10));
     }
 }
